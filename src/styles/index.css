@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Comfortaa-Regular";
+    font-style: normal;
+    src: url(src/font/Comfortaa-Regular.ttf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Comfortaa-Regular";
+}
+#log-img {
+    width: 250px;
+    height: 120px;
+}
+header {
+    background-color: rgb(161, 199, 199);
+    width: 100%;
+    height: 130px;
+    display: inline-flex;
+    border-bottom: solid cadetblue;
+}
+ul{
+    display: inline-flex;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+ul li {
+    margin-left: 5%;
+    font-size: 20px;
+}
+li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:active {
+    color: rgb(26, 165, 165);
+}
+#form-head {
+    display: flex;
+    align-items: center;
+}
+#button-head {
+    height: 46px;
+    width: 20px;
+}
+.input-head {
+    width: 100%;
+    height: 40px;
+}
+.anim-block {
+    margin: 40px 20% 40px 20%;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    height: 100px;
+    font-size: 20px;
+    justify-content: center;
+    background-color: rgb(161, 199, 199);
+    animation: pulsing 1.5s infinite;
+}
+
+
+    @keyframes pulsing {
+    0% {
+    transform: scale(1, 1)
+    }
+    50% {
+    transform: scale(1.1, 1.1);
+    }
+    100% {
+    transform: scale(1, 1);
+    }
+   }
+
+
+
+    #anim1 {animation-delay: 0s;}
+    #anim2 {animation-delay: 0.3s;}
+    #anim3 {animation-delay: 0.5s;}
+    #anim4 {animation-delay: 0.7s;}
+    #anim5 {animation-delay: 0.9s;}
+    #anim6 {animation-delay: 1s;}
+    #anim7 {animation-delay: 1.2s;}
+
+.alog {
+    border-bottom: solid cadetblue;
+}
+.prog {
+    font-size: 25px;
+}
+h1 {
+    text-align: center;
+}
+.prog {
+    margin: 20px 10% 20px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: rgb(161, 199, 199);
+    border-radius: 50px;
+    height: 100px;
+}
+.otz {
+    text-align: center;
+    background-color: rgb(161, 199, 199);
+    font-size: 20px;
+    margin: 0 20% 20px 20%;
+    border-radius: 50px;
+}
+p {
+    font-size: 20px;
+}
+.prem{
+    border-bottom: solid cadetblue;
+}
+#prem {
+    background-color: rgb(161, 199, 199);
+    height: auto;
+    border-radius: 25px;
+    text-align: center;
+    margin: 20px 20% 20px 20%;
+}
+.form-book {
+    margin-top: 20px;
+    border-bottom: solid cadetblue;
+}
+.form-book2 {
+    text-align: center;
+}
+#but-form {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.akc-image {
+    height: 350px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.akcfu {
+    margin: 0 30% 0 30%;
+    text-align: center;
+}
+@media (max-width: 1000px) {
+    .akcfu {margin: 0;}
+}
+.akciy {
+    border-style: solid;
+    border-color: cadetblue;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    padding-bottom: 20px;
+}
+.but-akc {
+    background-color: rgb(161, 199, 199);
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 5%;
+    border-color: cadetblue;
+    border-style: solid;
+    display: flex;
+}
+.but-akc:active {
+    background-color: rgb(26, 165, 165);
+    border-top: solid cadetblue;
+}
+.footer {
+    background-color: rgb(161, 199, 199);
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#popl {
+    margin-right: 20px;
+}
